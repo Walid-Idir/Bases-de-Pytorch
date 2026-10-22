@@ -1,0 +1,10 @@
+# Dépendances pour le TP Bases de PyTorch (Ia Generative)
+torch>=2.0.0
+torchvision
+torcheval
+torchmetrics
+torchviz
+graphviz
+matplotlib
+scikit-learn
+ipykernel
