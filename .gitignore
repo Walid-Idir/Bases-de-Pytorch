@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# PyTorch / Deep Learning model weights & checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+
 # Data & Datasets
 data/
 *.gz

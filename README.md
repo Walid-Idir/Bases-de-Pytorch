@@ -19,13 +19,12 @@ Ce dépôt contient le notebook complet et les ressources pour la prise en main 
      - Classification d'images sur **MNIST** avec un **MLP** (Multi-Layer Perceptron) et un **CNN** (Convolutional Neural Network).
      - Sauvegarde et rechargement des poids (`torch.save` & `load_state_dict`).
 
-2. **Modèles & Poids sauvegardés (`.pt` / `.pth`)** :
-   - `classifier_state_dict.pt` : Poids du classifieur binaire.
-   - `mnist_mlp_model.pth` : Poids du modèle MLP entraîné sur MNIST.
-   - `mnist_cnn.pth` : Poids du modèle CNN entraîné sur MNIST.
-
-3. **Visualisations & Graphiques** :
+2. **Visualisations & Graphiques** :
    - `graphe_operations.png` : Visualisation du graphe computationnel PyTorch généré avec `torchviz`.
+
+3. **Environnement & Dépendances** :
+   - `requirements.txt` : Liste des bibliothèques nécessaires à l'exécution du notebook.
+   - `.gitignore` : Configuration excluant les données brutes (`data/`), les caches et les fichiers de poids binaires (`*.pt`, `*.pth`).
 
 ---
 
@@ -43,7 +42,7 @@ Installez les packages nécessaires listés dans `requirements.txt` :
 pip install -r requirements.txt
 ```
 
-> **Note :** Si vous utilisez `torchviz`, assurez-vous que [Graphviz](https://graphviz.org/download/) est également installé sur votre système d'exploitation.
+> **Note :** Si vous utilisez `torchviz`, assurez-vous que [Graphviz](https://graphviz.org/download/) est également installé sur votre machine.
 
 ---
 
@@ -53,7 +52,7 @@ Lancez Jupyter Notebook ou Jupyter Lab :
 ```bash
 jupyter notebook
 ```
-Ouvrez ensuite le fichier `Activité_pratique_Bases_de_Pytorch.ipynb` et exécutez les cellules.
+Ouvrez ensuite le fichier `Activité_pratique_Bases_de_Pytorch.ipynb` et exécutez les cellules. L'entraînement des modèles et la sauvegarde locale des poids (`.pt` / `.pth`) s'effectueront directement lors de l'exécution.
 
 ---
 
